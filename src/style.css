@@ -8,12 +8,12 @@ body {
   --color-blue: #00acdc;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
+  height: 60px;
   padding: 0 50px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .logo__img {
@@ -23,6 +23,7 @@ body {
 
 .nav {
   margin-left: auto;
+  height: 100%;
 }
 
 .nav__list {
@@ -33,7 +34,7 @@ body {
 }
 
 .nav__item {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .nav__item:first-child {
@@ -42,10 +43,9 @@ body {
 
 .nav__link {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
+  line-height: 60px;
+  display: block;
+  text-align: center;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
